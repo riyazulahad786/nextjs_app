@@ -26,14 +26,16 @@ const Faq = () => {
     setActiveIndex(activeIndex === index ? null : index);
   };
 
+  
   return (
-    <div className='container-fluid mx-auto bg-[#F8FAFC]'>
+    <div className='container mx-auto bg-[#F8FAFC]'>
+    <h1 className='font-bold lg:px-10 text-3xl'>FAQ</h1>
       <div className="container mx-auto p-4">
         {faqs.map((faq, index) => (
           <div key={index} className="mb-4  rounded-md">
             <button
               onClick={() => toggleAccordion(index)}
-              className="w-full border-b text-left p-5 bg-[#F8FAFC] hover:bg-gray-200 font-semibold flex justify-between items-center"
+              className="w-full border-b text-left lg:p-5 p-3 bg-[#F8FAFC] hover:bg-gray-200 font-semibold flex justify-between items-center"
             >
               {faq.question}
               <span className="text-lg text-[#14B8A6]">

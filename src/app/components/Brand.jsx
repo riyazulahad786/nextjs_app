@@ -3,8 +3,8 @@ import React from 'react'
 function Brand() {
   return (
    
-    <div className="container mx-auto p-5 bg-whitesmoke py-16">
-    <h1 className='text-2xl font-bold'>Popular Brands</h1>
+    <div className="container px-4 mx-auto p-5 bg-whitesmoke py-16">
+    <h1 className='text-3xl font-bold lg:px-[95px]'>Popular Brands</h1>
     <div className="overflow-hidden">
       <div className="flex animate-scroll gap-12">
         <div className="flex-shrink-0">
