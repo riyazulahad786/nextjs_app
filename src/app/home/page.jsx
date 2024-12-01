@@ -14,12 +14,12 @@ import Faq from '../components/Faq'
 function page() {
   return (
     <div>
-         <Hero/>
+    <Hero/>
     <Statistics/>
-    <Banner/>
     <Categories/>
     <Products/>
     <Steps/>
+    <Banner/>
     <PopularProducts/>
     <Brand/>
     <Faq/>
