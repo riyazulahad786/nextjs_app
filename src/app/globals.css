@@ -37,7 +37,7 @@ body {
   }
 }
 
-/* Apply the scroll animation to the slider container
+/* Apply the scroll animation to the slider container */
 .animate-scroll {
   animation: scroll 60s linear infinite;
 }
@@ -48,7 +48,7 @@ body {
 .swiper-pagination-bullet-active {
   background-color: #007bff;
   opacity: 1;
-} */
+}
 /* .swiper-button-prev{
   visibility: hidden  !important;
 }
