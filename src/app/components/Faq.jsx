@@ -26,6 +26,7 @@ const Faq = () => {
     setActiveIndex(activeIndex === index ? null : index);
   };
 
+  
   return (
     <div className='container mx-auto bg-[#F8FAFC]'>
     <h1 className='font-bold lg:px-10 text-3xl'>FAQ</h1>
