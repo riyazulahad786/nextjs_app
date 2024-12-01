@@ -1,0 +1,57 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  --background: #ffffff;
+  --foreground: #171717;
+}
+
+@media (prefers-color-scheme: dark) {
+  :root {
+    --background: #0a0a0a;
+    --foreground: #ededed;
+  }
+}
+
+body {
+  color: var(--foreground);
+  background: var(--background);
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+@layer utilities {
+  .text-balance {
+    text-wrap: balance;
+  }
+}
+/* Brand.css */
+
+/* Keyframe animation for continuous scrolling */
+@keyframes scroll {
+  0% {
+    transform: translateX(0);
+  }
+  100% {
+    transform: translateX(-100%);
+  }
+}
+
+/* Apply the scroll animation to the slider container
+.animate-scroll {
+  animation: scroll 60s linear infinite;
+}
+.swiper-pagination-bullet {
+  background-color: #333;
+  opacity: 0.7;
+}
+.swiper-pagination-bullet-active {
+  background-color: #007bff;
+  opacity: 1;
+} */
+/* .swiper-button-prev{
+  visibility: hidden  !important;
+}
+.swiper-button-next{
+  visibility: hidden !important;
+} */
